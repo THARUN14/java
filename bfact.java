@@ -13,10 +13,10 @@ else
 for(int i=a;i>0;i--)
 {
 x*=i;
-System.out.println(x);
+
 
 }
-
+System.out.println(x);
 }
 }
 }
