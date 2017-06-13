@@ -4,28 +4,24 @@ class unique
     {
       for(int i=0;i<args.length;i++)
       {
+          int count=0;
           for(int j=0;j<args.length;j++)
-          {
-              if(i==j)
-              {
-              }
-              else
+          { 
+             
+              if(i!=j)
               {
                   if(args[i].equals(args[j]))
                   {
-                      args[i]="*";
-                      args[j]="*";
+                      count++;
                   }
               }
           }
-      }
-      for(int k=0;k<args.length;k++)
-      {
-          if(args[k]!="*")
+          if(count==0)
           {
-              System.out.print(args[k]);
+              System.out.print(args[i]);
           }
       }
     }
 }
+
 
