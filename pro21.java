@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class avgspli {
+public class pro21 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
