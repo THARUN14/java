@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class kbit {
+public class pro25 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int bit = sc.nextInt();
